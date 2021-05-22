@@ -20,5 +20,8 @@ Constraints:
 The given address is a valid IPv4 address.
 */
 
-
+var defangIPaddr = function(address) {
+    return address.split('.').join('[.]');
+    
+};
 
