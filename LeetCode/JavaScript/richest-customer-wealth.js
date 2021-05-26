@@ -8,3 +8,18 @@ The richest customer is the customer that has the maximum wealth
 */
 
 
+const maximumWealth = function(accounts) {
+    let ans = 0;
+    for(let i =0;i<accounts.length;i++){
+        let res = 0;
+        for(let j = 0;j<accounts[i].length;j++){
+            res+=accounts[i][j];
+        }
+       ans = Math.max(ans,res);
+    }
+    return ans;
+};
+
+maximumWealth([[2,3,4],[5,6,10]]);
+
+
