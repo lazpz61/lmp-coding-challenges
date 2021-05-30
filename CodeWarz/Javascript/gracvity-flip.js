@@ -9,9 +9,9 @@
 
 const flip=(d, a)=>{
     if (d === "L"){
-      a.sort();
-      return  a.reverse();
+     return a.sort(function(a,b){return b -a});
     } else if (d === "R"){
-      return a.sort()
+      return a.sort(function(a,b){return a -b});
     }
   }
+  
