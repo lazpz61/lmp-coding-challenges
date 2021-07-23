@@ -58,3 +58,16 @@
 // create a function take a string as input and replace 'a' to '*'
 
 
+// function foo(input){
+//     let frequency = {};
+//     for (let index=0; index<input.length; index++){
+//       let character = input.charAt(index);
+//       if(frequency[character]){
+//         frequency[character]++;
+//       } else {
+//         frequency[character] = 1;
+//       }
+//     }
+//     return frequency;
+//   }
+
